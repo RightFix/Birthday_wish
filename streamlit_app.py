@@ -10,7 +10,5 @@ wishes = ["Happy Birthday, My Best! 🎉💖", "Ogunnike Motorola Oyindamola",
 
 
 for wish in wishes:
-  col1, col2, col3 = st.columns([1, 2, 1])
-  with col2:
-    st.write(wish)
-    time.sleep(3)
+  st.markdown(f"<p style='text-align: center;'>{wish}</p>", unsafe_allow_html=True)
+  time.sleep(3)
