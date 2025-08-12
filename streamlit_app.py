@@ -14,4 +14,4 @@ for wish in wishes:
      st.markdown(f"<p style='text-align: center;'>{wish}</p>", unsafe_allow_html=True)
      time.sleep(2)
 
-st.rerun()
+#st.rerun()
