@@ -1,7 +1,8 @@
 import streamlit as st
 import time
 
-st.title(f"🥳 Happy Birthday Best 🎈")
+title = "🥳 Happy Birthday Best 🎈"
+st.markdown(f"<h1 style='text-align: center;'>{title}</h1>", unsafe_allow_html=True)
 
 if True:
  st.audio("Simi-Happy-Birthday.mp3", loop=True, autoplay=True, width=10)
