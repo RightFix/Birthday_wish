@@ -12,5 +12,6 @@ def wishing():
           st.markdown(f"<p style='text-align: center;'>{wish}</p>", unsafe_allow_html=True)
           time.sleep(2)
   wishing()
+  st.rerun()
 wishing()
 #st.rerun()
