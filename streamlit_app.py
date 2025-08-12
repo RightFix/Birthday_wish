@@ -3,7 +3,7 @@ import time
 
 st.title("🥳🎂 Happy Birthday 🎈🎂")
 
-audio_url = ”Simi-Happy-Birthday.mp3”# Replace with your link
+audio_url = "Simi-Happy-Birthday.mp3" # Replace with your link
 
 st.markdown( f"<audio autoplay loop style='display:none'> <source src={audio_url} type='audio/mp3'> </audio> ", unsafe_allow_html=True)
 st.audio("https://open.spotify.com/track/0HRVRl4bHTe0fkng5HAxpg?si=AjCOoN-yQCKOFo45kLvczw%0A", autoplay= True, loop= True)
