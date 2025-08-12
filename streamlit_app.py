@@ -3,7 +3,7 @@ import time
 
 st.title("🥳🎂 Happy Birthday Motorola")
 
-audio_url = "https://www.example.com/audio.mp3"  # Replace with your link
+audio_url = "https://open.spotify.com/track/0HRVRl4bHTe0fkng5HAxpg?si=AjCOoN-yQCKOFo45kLvczw%0A"  # Replace with your link
 
 st.markdown(
     f"""
