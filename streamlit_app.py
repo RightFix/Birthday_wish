@@ -5,7 +5,7 @@ import base64
 title = "🥳 Happy Birthday Best 🎈"
 st.markdown(f"<h1 style='text-align: center;'>{title}</h1>", unsafe_allow_html=True)
 
-if st.button("CLICK ME BIRTHDAY GIRL 💝")
+if st.button("CLICK ME BIRTHDAY GIRL 💝"):
  st.audio("birthday.mp3",width=301, autoplay=True)
 
 
