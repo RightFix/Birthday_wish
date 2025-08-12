@@ -12,5 +12,5 @@ wishes = ["Happy Birthday, My Best! 🎉💖", "Ogunnike Motorola Oyindamola", "
 for wish in wishes:
       st.markdown(f"<p style='text-align: center;'>{wish}</p>", unsafe_allow_html=True)
       time.sleep(2)
-st.audio("https://github.com/RightFix/Birthday_wish/blob/main/Simi-Happy-Birthday.mp3", loop=True, autoplay=True, width=301)
+st.audio("https://freemusicarchive.org/music/Monk_Turner__Fascinoma/The_New_Birthday_Song_Contest/Its_Your_Birthday_1839", loop=True, autoplay=True, width=301)
 st.rerun()
