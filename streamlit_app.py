@@ -1,7 +1,7 @@
 import streamlit as st
 import time
 
-st.title("🥳🎂 Happy Birthday 🎈🎂")
+st.title("🥳 Happy Birthday 🎈")
 
 st.audio("Simi-Happy-Birthday.mp3", loop= True, autoplay= True )
 
