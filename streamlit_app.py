@@ -12,3 +12,5 @@ wishes = ["Happy Birthday, My Best! 🎉💖", "Ogunnike Motorola Oyindamola",
 for wish in wishes:
   st.markdown(f"<p style='text-align: center;'>{wish}</p>", unsafe_allow_html=True)
   time.sleep(3)
+
+st.rerun()
