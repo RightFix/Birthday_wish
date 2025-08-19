@@ -2,7 +2,7 @@ import streamlit as st
 import time
 import base64
 
-title = "🥳 Happy Birthday Best 🎈"
+title = "🥳 Happy Birthday My Number One Fan🎈"
 st.markdown(f"<h1 style='text-align: center;'>{title}</h1>", unsafe_allow_html=True)
 
 if st.button("CLICK ME BIRTHDAY GIRL 💝"):
